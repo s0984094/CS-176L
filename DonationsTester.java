@@ -1,14 +1,14 @@
-package edu.monmouth.cs176l.donations;
+package edu.monmouth.CS176L.Donations;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class DonationsTester {
+public class DonationsTest {
 
 	public static void main(String[] args)throws FileNotFoundException{
 		Scanner inputScanner = new Scanner(System.in);
 		
-		System.out.print("Would you like to process donations now? "
+		System.out.println("Would you like to process donations now? "
 				+ "(enter 'Yes' to continue): ");
 		
 		String consoleCommand = inputScanner.nextLine();
