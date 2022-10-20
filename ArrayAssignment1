@@ -10,8 +10,8 @@ public class ArrayAssignment1 {
 		{
 			if(element >largestDouble)	// if statement determines the largest double
 			{
-				largestDouble = element; /* if the next element in the array is larger than the
-									previous element it is assigned to the variable largestDouble*/
+				largestDouble = element; /* if the next element in the array is larger than the 
+				previous element it is assigned to the variable largestDouble*/
 			}
 			System.out.print( element +" ");
 			if (element < 0) 
